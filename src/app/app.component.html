@@ -1,0 +1,5 @@
+<!--The content below is only a placeholder and can be replaced.-->
+<button (click)="getSimple()">Get Collection of 3000 Items</button>
+<button (click)="getDetailed()">Get Collection of 3000 Items Detailed</button>
+<h3 *ngIf="running">Test Running</h3>
+<h3 *ngIf="loaded && !running">{{count}} Items took {{time}}'s to load</h3>
